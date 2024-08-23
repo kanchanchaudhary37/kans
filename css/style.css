@@ -1032,6 +1032,43 @@ a{
     flex: 0 0 100%;
   }
 
+  .col-70{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .col-30{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+
+  .header-menu{
+    display: none;
+  }
+  
+  .profile-image{
+    justify-content: center;
+    padding-top: 25px;
+  }
+
+  #service-section{
+    padding: 63px 0;
+  }
+
+  .service-heading-wrapper .heading h2{
+    font-size: 31px;
+    margin-top: 16px;
+  }
+
+  .row-service{
+    margin-top: -105px;
+  }
+
+  .bio-wrapper h1{
+    font-size: 41px;
+  }
+
   .bio-button-video{
     margin-top: 50px;
   }
@@ -1052,8 +1089,35 @@ a{
     margin-bottom: 85px;
   }
 
+  .about-heading h2{
+    margin-left: 52px;
+    font-size: 29px;
+    margin-top: -33px;
+  }
+
+  .about-heading{
+    margin-top: 57px;
+  }
+
+  .about-paragraph{
+    margin-top: 62px;
+  }
+
+  #about-section .col-50 .download-button {
+    margin-top: 81px;
+    margin-left: 127px;
+  }
+
   .about-image{
     text-align: center;
+  }
+
+  #design-section {
+    padding: 29px 0;
+  }
+
+  #design-section .col-form-wrapper {
+    margin-top: 48px;
   }
 
   .intro{
@@ -1063,14 +1127,90 @@ a{
   .education-row{
     width: 100%;
   }
+
+  .portfolio-heading h3 {
+    margin-top: 33px;
+  }
+
+  .portfolio-sub-heading h2 {
+    font-size: 35px;
+    margin-top: 11px;
+    margin-bottom: 31px;
+  }
+
+  .portfolio-sub-heading h2 span {
+    font-size: 35px;
+  }
+
+
   .portfolio-sub-heading h2 span {
     display: inline;
   }
 
+  .second-image{
+    margin-top: 22px;
+  }
+
+  .fourth-image{
+    margin-top: 10px;
+  }
+
+  .clients-review-sub-heading h2 {
+    font-size: 35px;
+  }
+
+  .heading-wrapper{
+    margin-top: 29px;
+  }
+
+  .row .clent-review{
+    margin-top: -18px;
+  }
+
   .col-image-wrapper .profile-image img{
     margin-left: 306px;
-    margin-top: -202px;
+    margin-top: -227px;
   }
+
+  .col-bg-image-wrapper{
+    padding-bottom: 194px;
+  }
+
+  #my-blog-section {
+    padding: 14px 0 250px 0;
+  }
+
+  .my-blog-sub-heading h2 {
+    width: 100%;
+    font-size: 36px;
+  }
+
+  .row-first-part {
+    margin-left: 66px;
+  }
+
+  .date-wrapper {
+    margin-left: 125px;
+  }
+  .author-comment-row .col-50{
+    max-width: 50%;
+  }
+
+  #my-blog-section {
+    padding: 19px 0 17px 0;
+}
+
+.col-reserved-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.footer-menu ul {
+  width: 472px;
+}
+
+.footer-menu ul li a{
+  font-size: 18px;
+}
 }
 
 
